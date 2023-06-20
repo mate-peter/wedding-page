@@ -66,7 +66,7 @@ a:hover {
   /* ==== HEADER ==== */
 
   .cover {
-    background: url("/images/cover-photo-mobile.png") no-repeat 45% center/cover;
+    background: url("./images/cover-photo-mobile.png") no-repeat 45% center/cover;
     display: table;
     text-align: center;
     height: 100vh;
@@ -76,7 +76,7 @@ a:hover {
   @media (min-width: 768px) {
   
     .cover {
-      background: url("/images/cover-photo.png") no-repeat  center/cover;
+      background: url("./images/cover-photo.png") no-repeat  center/cover;
     }
   
   }
