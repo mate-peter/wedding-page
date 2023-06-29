@@ -115,6 +115,112 @@
                 <p class="question">Meddig tart a mulatság?</p>
                 <p class="answer">Az állófogadással maximum 17:00 óráig lehet számolni, a vacsorával pedig 23:00-ig.</p>
             </div>
+            <div id="regist"><h2 class="section-headline">Regisztáció</h2></div>
+            <div class="question form">Kérlek, segítsd a munkánkat azzal, hogy visszajelzel, ott tudsz-e lenni velünk, és ha igen, hány ember jön veled! Akik együtt jöttök (családok, párok), azok közül egy ember regisztrációját kérjük tőletek a lenti kérdőív kitöltésével.</div>
+            <form action="https://formspree.io/f/mrgwzywa"
+        method="POST" class="form-container">
+        <div class="form">
+          <div class="form-grid-item1">
+            <label for="full-name">Név*</label>
+            <input
+              type="text"
+              id="full-name"
+              name="Full-Name"
+              placeholder="Lakatos Dzsúlió Dáridó"
+              required
+            >
+          </div>
+          <div class="form-grid-item2">
+            <label for="email">E-mail*</label>
+            <input
+              type="email"
+              id="email"
+              name="E-mail"
+              placeholder="minta@minta.com"
+              required
+            >
+          </div>
+          <div class="form-grid-item3">
+            <label for="mobile-number">Telefonszám*</label>
+            <input
+              type="tel"
+              id="mobile-number"
+              name="Mobile-number"
+              placeholder="+36 30 123 4567"
+              required
+            >
+          </div>
+          <div class="form-grid-item4">
+            <fieldset>
+                <legend>Több személyt regisztrálsz?* (családtag/barát)</legend>
+                <label for="radio-thumb1">Igen</label>
+                <input
+                    type="radio"
+                    id="radio-thumb1"
+                    name="Több személyt regisztrálsz?"
+                    value="Több személyt regisztál"
+                >
+                <label for="radio-thumb2">Nem</label>
+                <input
+                    type="radio"
+                    id="radio-thumb2"
+                    name="Több személyt regisztrálsz?"
+                    value="Csak magát regisztrálja"
+                >
+            </fieldset>
+        </div>
+          <div>
+            <fieldset>
+                <legend>A szertartáson és a vacsorán is ott leszel?*</legend>
+                <label for="radio-thumb3">Igen</label>
+                <input
+                    type="radio"
+                    id="radio-thumb3"
+                    name="Vacsorára hivatalos?"
+                    value="A vacsorán is ott lesz"
+                >
+                <label for="radio-thumb4">Nem</label>
+                <input
+                    type="radio"
+                    id="radio-thumb4"
+                    name="Vacsorára hivatalos?"
+                    value="Csak a szertartáson lesz ott"
+                >
+            </fieldset>
+          </div>
+          <div id="dinner-requirement">
+            <fieldset>
+                <legend>Ha gyermekkel érkezel, szüksége van etetőszékre?</legend>
+                <label for="radio-thumb5">Igen</label>
+                <input
+                    type="radio"
+                    id="radio-thumb5"
+                    name="Kell etetőszék?"
+                    value="Igen"
+                >
+                <label for="radio-thumb6">Nem</label>
+                <input
+                    type="radio"
+                    id="radio-thumb6"
+                    name="Kell etetőszék?"
+                    value="Nem"
+                >
+            </fieldset>
+          </div>
+          <div class="form-grid-item5" id="form-textarea">
+            <textarea
+              name="Kiket regiszrál:"
+              id="message"
+              placeholder="Kérjük sorold fel, hogy kikkel érkezel. (gyerekek is)"
+              required
+            ></textarea>
+          </div>
+          <input
+            type="submit"
+            value="Regisztrálok"
+            class="contact-input-type-container form-grid-item6"
+          >
+        </form>
         </section>
         <section class="contact">
             <div class="section-headline">
@@ -127,6 +233,7 @@
                 <p><a href="tel:+36 20 778 9744">+36 20 778 9744</a> (Gyuri) </p>
                 <p>E-mail: <a href="mailto:gyorfisarolta@gmail.com">gyorfisarolta@gmail.com</a></p>
             </div>
+        </div>
         </section>
     </main>
     <footer>
@@ -135,4 +242,5 @@
         </div>
     </footer>
 </body>
+<script src="/sript.js"></script>
 </html>

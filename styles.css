@@ -280,6 +280,102 @@ a:hover {
     margin-bottom: 2rem;
  }
 
+ /* FORM */
+
+ #regist {
+  margin-top: 4rem;
+
+ }
+
+ .form {
+  display: grid;
+  text-align: left;
+  font-size: 1.2rem;
+  max-width: 700px;
+  margin: 0 auto 2rem;
+ }
+
+.form [type="text"],
+.form [type="email"],
+.form [type="tel"],
+.form textarea {
+  width: 100%;
+  margin: 0.5rem 0 1.5rem 0;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  color:rgb(224, 212, 186);
+  border: none;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background: linear-gradient(45deg, rgb(77, 70, 66), rgb(87, 78, 68));
+  font-size: 1.2rem;
+}
+
+form legend {
+font-size: 1.2rem;
+margin-bottom: 1rem;
+font-weight: bold;
+}
+
+fieldset {
+  text-align: center;
+  margin: 1.2rem;
+}
+
+.form textarea {
+  height: 120px;
+}
+
+#form-textarea {
+  display: none;
+}
+
+#form-textarea.show {
+  display: block;
+}
+
+#dinner-requirement {
+  display: none;
+}
+
+#dinner-requirement.show {
+  display: block;
+}
+
+.form [type="submit"] {
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 1rem;
+  border: none;
+  border-radius: 25px;
+  background: linear-gradient(90deg, rgb(224, 212, 186), rgb(204, 177, 110));
+  color: #444349;
+  cursor: pointer;
+  margin-bottom: 3.5rem;
+}
+
+.form [type="submit"]:hover {
+  background: linear-gradient(90deg, rgb(197, 179, 138), rgb(146, 123, 63));
+  transition: 0.2s ease-in-out;
+}
+
+
+textarea::placeholder {
+  background: linear-gradient(90deg, rgb(224, 212, 186), rgb(204, 177, 110));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 0.7;
+  font-size: 1rem;
+}
+
+::placeholder {
+  background: linear-gradient(90deg, rgb(224, 212, 186), rgb(204, 177, 110));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 0.7;
+  font-size: 1rem;
+}
+
  @media screen and (min-width: 768px) {
     .faq {
         
@@ -297,8 +393,6 @@ a:hover {
     .question-group::after {
         display: none;
     } 
-
-
  }
 
 /* ---CONTACT---*/
@@ -312,6 +406,8 @@ a:hover {
 .contact-content p {
   margin-bottom: 1.5rem;
 }
+
+
 
 /* ---FOOTER---*/
 
