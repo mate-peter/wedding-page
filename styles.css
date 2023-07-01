@@ -287,6 +287,11 @@ a:hover {
 
  }
 
+ .regist-p{
+  line-height: 1.3rem;
+  font-weight: normal;
+ }
+
  .form {
   display: grid;
   text-align: left;
